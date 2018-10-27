@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.xiang.commandapplication.MainActivity">
+
+    <com.example.xiang.commandapplication.DrawCanvas
+        android:id="@+id/ac_draw_canvas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/linear_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linear_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ac_draw_color_red_btn"
+                android:text="红色"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ac_draw_color_green_btn"
+                android:text="绿色"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ac_draw_color_blue_btn"
+                android:text="蓝色"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_brush"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/linear_btn"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ac_draw_brush_normal_btn"
+                android:text="普通笔刷"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ac_draw_brush_circle_btn"
+                android:text="圆形笔刷"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ac_draw_operate_undo_btn"
+                android:text="撤销"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ac_draw_operate_redo_btn"
+                android:text="重做"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

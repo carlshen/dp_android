@@ -1,0 +1,2 @@
+include ':androidEventBus'
+include ':simple_eventbus_demo'
