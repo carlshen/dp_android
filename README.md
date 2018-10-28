@@ -1,2 +1,12 @@
 # dp_android
 《Android 源码设计模式解析与实战》学习总结及部分示例代码
+最近学习了这本书，对于Android及设计模式都有收获，感谢作者。
+其中一些源码的分析结合设计模式，很到位，有助于加深理解。
+在此总结了一些示例代码，并且把原来Eclipse的项目移植到了Android Studio环境中，分享给大家。
+android_dp_plugin_host 动态加载框架的主程序
+android_dp_plugin_plugin 动态加载框架的插件程序
+CommandApplication 命令模式的源代码
+Simple_eventbus_demo 事件模式的源代码
+simple_imageloader 图片加载的源代码
+the-tech-frontier-app MVP例子的源代码
+CircleMenuLayout 圆形菜单及适配器的源代码
