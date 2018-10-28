@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">圆形菜单</string>
+    <string name="list_name">列表菜单</string>
+    <string name="action_settings">Settings</string>
+</resources>
